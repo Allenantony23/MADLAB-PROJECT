@@ -1,6 +1,5 @@
 import 'package:flutter/material.dart';
 import 'otp_screen.dart';
-import '../../utils/constants.dart';
 
 class LoginScreen extends StatefulWidget {
   const LoginScreen({super.key});
@@ -24,7 +23,6 @@ class _LoginScreenState extends State<LoginScreen> {
             child: Column(
               crossAxisAlignment: CrossAxisAlignment.start,
               children: [
-                // Back Button
                 IconButton(
                   onPressed: () => Navigator.pop(context),
                   icon: const Icon(Icons.arrow_back_rounded),
@@ -32,13 +30,11 @@ class _LoginScreenState extends State<LoginScreen> {
                 
                 const SizedBox(height: 40),
                 
-                // Welcome Text
                 const Text(
                   'Welcome to\nBharatBazaar',
                   style: TextStyle(
                     fontSize: 32,
                     fontWeight: FontWeight.bold,
-                    fontFamily: AppConstants.fontFamily,
                     height: 1.2,
                   ),
                 ),
@@ -50,13 +46,11 @@ class _LoginScreenState extends State<LoginScreen> {
                   style: TextStyle(
                     fontSize: 16,
                     color: Colors.grey[600],
-                    fontFamily: AppConstants.fontFamily,
                   ),
                 ),
                 
                 const SizedBox(height: 60),
                 
-                // Phone Input
                 TextFormField(
                   controller: _phoneController,
                   keyboardType: TextInputType.phone,
@@ -85,7 +79,6 @@ class _LoginScreenState extends State<LoginScreen> {
                 
                 const SizedBox(height: 40),
                 
-                // Continue Button
                 SizedBox(
                   width: double.infinity,
                   child: ElevatedButton(
@@ -102,7 +95,7 @@ class _LoginScreenState extends State<LoginScreen> {
                       }
                     },
                     style: ElevatedButton.styleFrom(
-                      backgroundColor: AppConstants.primaryColor,
+                      backgroundColor: const Color(0xFFFB641B),
                       foregroundColor: Colors.white,
                       padding: const EdgeInsets.symmetric(vertical: 16),
                       shape: RoundedRectangleBorder(
@@ -117,18 +110,6 @@ class _LoginScreenState extends State<LoginScreen> {
                       ),
                     ),
                   ),
-                ),
-                
-                const SizedBox(height: 20),
-                
-                // Terms and Conditions
-                Text(
-                  'By continuing, you agree to our Terms of Service and Privacy Policy',
-                  style: TextStyle(
-                    fontSize: 12,
-                    color: Colors.grey[600],
-                  ),
-                  textAlign: TextAlign.center,
                 ),
               ],
             ),
