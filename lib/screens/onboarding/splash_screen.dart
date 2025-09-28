@@ -82,7 +82,7 @@ class _SplashScreenState extends State<SplashScreen>
                   fontSize: 32,
                   fontWeight: FontWeight.bold,
                   color: Colors.white,
-                  fontFamily: AppConstants.fontFamily,
+                  
                   letterSpacing: 1.2,
                 ),
               ),
@@ -92,7 +92,7 @@ class _SplashScreenState extends State<SplashScreen>
                 style: TextStyle(
                   fontSize: 16,
                   color: Colors.white70,
-                  fontFamily: AppConstants.fontFamily,
+                  
                 ),
               ),
             ],

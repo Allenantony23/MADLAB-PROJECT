@@ -202,7 +202,7 @@ class OnboardingPageWidget extends StatelessWidget {
             style: const TextStyle(
               fontSize: 28,
               fontWeight: FontWeight.bold,
-              fontFamily: AppConstants.fontFamily,
+              
             ),
             textAlign: TextAlign.center,
           ),
@@ -215,7 +215,7 @@ class OnboardingPageWidget extends StatelessWidget {
             style: TextStyle(
               fontSize: 16,
               color: Colors.grey[600],
-              fontFamily: AppConstants.fontFamily,
+              
               height: 1.5,
             ),
             textAlign: TextAlign.center,

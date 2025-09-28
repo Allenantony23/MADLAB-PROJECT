@@ -9,7 +9,7 @@ class ThemeService {
       secondary: AppConstants.secondaryColor,
       background: Colors.white,
     ),
-    fontFamily: AppConstants.fontFamily,
+    
     scaffoldBackgroundColor: Colors.white,
     appBarTheme: const AppBarTheme(
       backgroundColor: Colors.white,
@@ -19,7 +19,7 @@ class ThemeService {
         color: Colors.black,
         fontSize: 18,
         fontWeight: FontWeight.w600,
-        fontFamily: AppConstants.fontFamily,
+        
       ),
     ),
     textTheme: const TextTheme(
@@ -52,7 +52,7 @@ class ThemeService {
       secondary: AppConstants.secondaryColor,
       background: Color(0xFF121212),
     ),
-    fontFamily: AppConstants.fontFamily,
+    
     scaffoldBackgroundColor: const Color(0xFF121212),
     appBarTheme: const AppBarTheme(
       backgroundColor: Color(0xFF1E1E1E),
@@ -62,7 +62,7 @@ class ThemeService {
         color: Colors.white,
         fontSize: 18,
         fontWeight: FontWeight.w600,
-        fontFamily: AppConstants.fontFamily,
+        
       ),
     ),
     textTheme: const TextTheme(
